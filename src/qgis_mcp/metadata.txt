@@ -1,7 +1,0 @@
-[general]
-name=QGIS MCP
-qgisMinimumVersion=3.0
-description=Connect QGIS to Claude via Model Context Protocol
-version=0.1
-author=QGISMCP
-email=hotwater1367@gmail.com
