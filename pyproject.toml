@@ -1,0 +1,18 @@
+[project]
+name = "qgis-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Kota Yuhara", email = "hotwater1367@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = ["fastmcp>=0.4.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["ruff>=0.11.0"]
+
+[project.scripts]
+qgis-mcp = "qgis_mcp.client:main"
